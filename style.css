@@ -1,0 +1,52 @@
+/* cara kedua -> @import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto'); */
+
+h1{
+	color: rgb(0,0,0);
+	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+
+}
+
+h2{
+	color:#3333cc;
+	font-size:24px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+p {
+	color: Maroon;
+	font-size: 15px;
+	border: 1px solid black; /*ketebalan; jenis(dotted,solid,etc); color*/
+}
+
+body{
+	background-color: pink;
+}
+
+#box1 
+{
+	background-color: yellow;
+	border: 5px dotted black;
+	width: 300px;
+	height: 400px;
+	margin: 50px; /* margin adalah jarak antara satu element dgn element yang lain */
+	padding: 10px; /*padding adalah jarak antara border dengan element yg ada dalam border */
+}
+
+#box2
+{
+	background-color: lightblue;
+	border: 1px solid black;
+	width: 50%;
+	min-width: 100px; /* yg ni utk kita maximizekan gerakan width utk smpai mana */
+	height: 400px;
+	margin: 50px; 
+	padding: 10px;
+}
+
+#box3{
+	border: 10px double black;
+	background-color: blue;
+	width: 500px; /* step 1 to center the box */
+	margin: 10px auto; /*step 2 to center the box */
+}
